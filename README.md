@@ -43,7 +43,22 @@ Install the required Python libraries (boto3, requests, python-dotenv).
 pip install -r requirements.txt
 ```
 
-### 3. Configure Environment Variables
+### 3. Configure AWS Credentials
+You need to configure your AWS credentials so the application (and Terraform) can access your S3 bucket.
+
+**Simplest Option: Using AWS CLI**
+Run the following command and enter your credentials when prompted:
+```powershell
+aws configure
+# AWS Access Key ID [None]: <your-access-key-id>
+# AWS Secret Access Key [None]: <your-secret-access-key>
+# Default region name [None]: ap-south-1
+# Default output format [None]: json
+```
+*Alternatively, you can export environment variables, though this is less secure for long-term use.*
+
+### 4. Configure Environment Variables
+
 Create a `.env` file in the root directory to store your secrets. It should look like this:
 
 ```ini
