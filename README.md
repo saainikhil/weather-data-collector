@@ -165,6 +165,7 @@ weather-data-collector/
 ---
 
 ## Conclusion
+
 This project successfully integrates external APIs, cloud storage, and local file handling into a cohesive Python application. It serves as a practical example of:
 - **Automation**: Regularly fetching and storing data without manual intervention.
 - **Resilience**: Handling errors gracefully (e.g., if one city fails or S3 is unreachable).
