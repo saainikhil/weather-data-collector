@@ -11,6 +11,9 @@ The system performs the following actions:
 
 This project demonstrates core DevOps and engineering concepts including API integration, cloud storage (S3), environment management, and file handling.
 
+![Architecture Diagram](./architecture_diagram.png)
+
+
 ---
 
 ## Prerequisites
