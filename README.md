@@ -50,7 +50,7 @@ Create a `.env` file in the root directory to store your secrets. It should look
 OPENWEATHER_API_KEY=your_api_key_here
 AWS_REGION=ap-south-1
 S3_BUCKET_NAME=your_unique_bucket_name
-CITIES=London,New York,Tokyo
+CITIES=London,Anantapur,Hyderabad,New York
 ```
 
 ---
@@ -67,6 +67,32 @@ python src/main.py
 ```powershell
 ./venv/Scripts/python src/main.py
 ```
+
+---
+
+## Infrastructure Management (Terraform)
+This project uses **Terraform** to manage the AWS infrastructure (S3 bucket).
+
+### 1. Initialize Terraform
+Initialize the working directory containing Terraform configuration files. This downloads necessary plugins.
+```powershell
+cd infra
+terraform init
+```
+
+### 2. View Execution Plan
+Preview the changes that Terraform will make to your infrastructure.
+```powershell
+terraform plan
+```
+
+### 3. Apply Changes
+Create or update the infrastructure resources on AWS.
+```powershell
+terraform apply
+```
+*Type `yes` when prompted to confirm.*
+
 
 ---
 
@@ -106,7 +132,10 @@ If AWS is configured, the same JSON file is uploaded to your S3 bucket under the
 ```
 weather-data-collector/
 ├── docs/                   # Local folder where weather JSON output is saved
-├── infra/                  # Infrastructure code (e.g., Terraform)
+├── infra/
+│   ├── main.tf             # Terraform resources
+│   ├── outputs.tf          # Terraform outputs
+│   └── variables.tf        # Terraform variables
 ├── src/
 │   └── main.py             # Main application logic
 ├── .env                    # Environment variables (API keys, config)
