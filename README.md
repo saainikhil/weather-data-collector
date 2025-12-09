@@ -167,4 +167,3 @@ This project successfully integrates external APIs, cloud storage, and local fil
 - **Resilience**: Handling errors gracefully (e.g., if one city fails or S3 is unreachable).
 - **Organization**: structuring code and output in a clean, maintainable way.
 
-Feel free to extend this project by adding more cities, visualizing the data, or deploying it as a Lambda function!
