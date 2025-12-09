@@ -1,0 +1,52 @@
+{
+    "city": "London",
+    "temperature_f": 56.62,
+    "humidity": 86,
+    "condition": "broken clouds",
+    "timestamp": "2025-12-09T15:57:41.341947+00:00",
+    "raw": {
+        "coord": {
+            "lon": -0.1257,
+            "lat": 51.5085
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 56.62,
+            "feels_like": 56.03,
+            "temp_min": 55.31,
+            "temp_max": 57.54,
+            "pressure": 1001,
+            "humidity": 86,
+            "sea_level": 1001,
+            "grnd_level": 998
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 14.97,
+            "deg": 180
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1765295777,
+        "sys": {
+            "type": 2,
+            "id": 2075535,
+            "country": "GB",
+            "sunrise": 1765266848,
+            "sunset": 1765295514
+        },
+        "timezone": 0,
+        "id": 2643743,
+        "name": "London",
+        "cod": 200
+    }
+}

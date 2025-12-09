@@ -1,0 +1,51 @@
+{
+    "city": "Anantapur",
+    "temperature_f": 71.37,
+    "humidity": 68,
+    "condition": "scattered clouds",
+    "timestamp": "2025-12-09T15:57:43.606118+00:00",
+    "raw": {
+        "coord": {
+            "lon": 77.6,
+            "lat": 14.6833
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 71.37,
+            "feels_like": 71.4,
+            "temp_min": 71.37,
+            "temp_max": 71.37,
+            "pressure": 1016,
+            "humidity": 68,
+            "sea_level": 1016,
+            "grnd_level": 973
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 8.28,
+            "deg": 98,
+            "gust": 18.84
+        },
+        "clouds": {
+            "all": 25
+        },
+        "dt": 1765295423,
+        "sys": {
+            "country": "IN",
+            "sunrise": 1765242215,
+            "sunset": 1765282827
+        },
+        "timezone": 19800,
+        "id": 1278672,
+        "name": "Anantapur",
+        "cod": 200
+    }
+}

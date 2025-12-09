@@ -1,0 +1,52 @@
+{
+    "city": "Hyderabad",
+    "temperature_f": 70.21,
+    "humidity": 35,
+    "condition": "haze",
+    "timestamp": "2025-12-09T15:57:42.995631+00:00",
+    "raw": {
+        "coord": {
+            "lon": 78.4744,
+            "lat": 17.3753
+        },
+        "weather": [
+            {
+                "id": 721,
+                "main": "Haze",
+                "description": "haze",
+                "icon": "50n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 70.21,
+            "feels_like": 68.58,
+            "temp_min": 70.21,
+            "temp_max": 71.11,
+            "pressure": 1018,
+            "humidity": 35,
+            "sea_level": 1018,
+            "grnd_level": 954
+        },
+        "visibility": 5000,
+        "wind": {
+            "speed": 6.91,
+            "deg": 50
+        },
+        "clouds": {
+            "all": 0
+        },
+        "dt": 1765295423,
+        "sys": {
+            "type": 1,
+            "id": 9214,
+            "country": "IN",
+            "sunrise": 1765242298,
+            "sunset": 1765282325
+        },
+        "timezone": 19800,
+        "id": 1269843,
+        "name": "Hyderabad",
+        "cod": 200
+    }
+}
